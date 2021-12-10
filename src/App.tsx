@@ -1,11 +1,15 @@
 import React from 'react';
 import './App.css';
+import { UserDetailsView } from "./UserDetailsView";
+
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        Hello 
+        <h1>Julia</h1>
+        <h2>Start editing to see some magic happen!</h2>
+        <UserDetailsView />
       </header>
     </div>
   );
